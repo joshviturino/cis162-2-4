@@ -41,7 +41,8 @@ html {
 }
 
 body {
- 
+  max-width: 960;
+  min-width: 600;
   background-color: rgb(34, 110, 156);
   font-family: 'Carattere',
   cursive;
@@ -95,7 +96,7 @@ header h1  {
   
     
    
-  border:10px solid rgb(7, 40, 73);
+ 
   margin:20px;
   font-size: 3em;
   text-align: center;
@@ -114,15 +115,15 @@ h2 {
   text-align: center;
   max-width: 32%;
   color:rgb(7, 40, 73);
-  font-size: 2em;
-  border:10px solid rgb(7, 40, 73);
+  font-size: 1em;
+ 
   
 }
 
 nav {
   
   
-  border:10px solid rgb(7, 40, 73);
+  
   display:inline-block;
   width: 30%;
   
@@ -223,7 +224,7 @@ article ol {
 }
 
 article img {
-  border:20px solid rgb(7, 40, 73);
+
   display: block;
   width: 50%;
   padding-left: 0;
@@ -239,17 +240,17 @@ aside {
 }
 
 aside img {
-  border: 20px solid rgb(7, 40, 73);
+ 
   display: block;
   width: 65%;
 }
 
 aside p {
   margin: 20px;
-  border:10px solid rgb(7, 40, 73);
+ 
   color: rgb(7, 40, 73);
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 1.6em;
 }
 
@@ -266,7 +267,7 @@ textarea {
   height: 100px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 10px solid rgb(7, 40, 73);
+  
   border-radius: 10px;
   background-color: rgb(69, 97, 134);
   font-size: 16px;
@@ -326,17 +327,8 @@ input[type=reset] {
   width: 10%;
   color: navy;
 }
-footer p {
-  line-height: 1em;
-  margin: 1em;
-}
 
-footer {
-  font-size:2em ;
-  text-align: center;
-  border: 20px solid rgb(7, 40, 73);
-  margin: 10px;
-}
+
 /* image section */
 
 div.gallery {
@@ -355,7 +347,7 @@ div.gallery img {
 
 div.desc {
   color:rgb(7, 40, 73);
-  font-size: 150%;
+  
   padding: 15px;
   text-align: center;
 }
@@ -382,6 +374,17 @@ div.desc {
     width: 100%;
   }
 }
+/* Accordion layout*/
+.accordion-header {
+  background-color: rgb(93, 119, 158);
+  
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  background-color: rgb(34, 110, 156);
+  color:rgb(7, 40, 73);
+}
 .accordion-item {
   
  background-color: rgb(34, 110, 156);
@@ -390,11 +393,25 @@ div.desc {
 
 .accordion-button {
  background-color: rgb(34, 110, 156);
-
+color:rgb(7, 40, 73);
 }
 .card {
   border: 10px solid rgb(7, 40, 73);
   background-color: rgb(34, 110, 156);
+}
+.card-text {
+  font-size: 15px;
+}
+footer p {
+  line-height: 1em;
+  margin: 1em;
+}
+
+footer {
+  font-size: .7em;
+  text-align: center;
+  border: 20px solid rgb(7, 40, 73);
+  margin: 10px;
 }
 
 
